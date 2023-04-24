@@ -6,3 +6,13 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://${EUREKA_SERVER_ADDRESS:localhost}:8761/eureka
+      
+okta:
+  oauth2:
+    issuer: https://dev-60363091.okta.com/oauth2/default
+    audience: api://default
+spring:
+  zipkin:
+    baseUrl: http://zipkin-svc:9411
+      
+      
