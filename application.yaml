@@ -5,8 +5,8 @@ eureka:
     hostname: localhost
     prefer-ip-address: true
   client:
-    fetch-registry: false
-    register-with-eureka: false
+    fetchRegistry: false
+    registerWithEureka: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
       
